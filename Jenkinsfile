@@ -1,7 +1,7 @@
 pipeline{
     agent any
 	tools {
-        maven 'maven-3.6.3'
+        maven 'grp-maven-3.6.3'
         jdk 'grp-jdk'
     }
     stages{
